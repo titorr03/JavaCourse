@@ -23,11 +23,11 @@ public class masivi1v {
 		}
 		
 		
-		float sredno=0;
+		float sredno=1;
 		for(int a=0; a <arr2.length; a++) {
-			sredno=sredno+arr2[a];
+			sredno=sredno*arr2[a];
 		}
-		sredno=Math.round(sredno/nech);
+		sredno=Math.round(Math.sqrt(sredno));
 		int c=0;
 		float raz;
 		int raz2=0;;
