@@ -1,19 +1,24 @@
-import java.util.*;
-public class masivi1a {
+import java.util.Scanner;
+
+public class masivi1b {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner (System.in);
 		int n = in.nextInt();
+		int nech=0;
 		int [] arr= new int[n];
 		for(int i=0; i<arr.length; i++) {
 			arr[i]=in.nextInt();
+			if(i%2==0) {
+				nech++;
+			}
 		}
 		float sredno=0;
-		for(int a=0; a <arr.length; a++) {
+		for(int a=0; a <arr.length; a+=2) {
 			sredno=sredno+arr[a];
 		}
-		sredno=Math.round(sredno/n);
+		sredno=Math.round(sredno/nech);
 		int c=0;
 		float raz;
 		int raz2=0;;
@@ -43,8 +48,7 @@ public class masivi1a {
 		}
 		
 		}
-		
-		
+
 		
 		
 		
