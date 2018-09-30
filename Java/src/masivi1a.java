@@ -14,7 +14,7 @@ public class masivi1a {
 			sredno=sredno+arr[a];
 		}
 		sredno=Math.round(sredno/n);
-		int c=0;
+		int p=0;
 		float raz;
 		int raz2=0;;
 		raz=Math.abs(arr[0]-sredno);
@@ -22,10 +22,10 @@ public class masivi1a {
 			if (Math.abs(arr[r]-sredno)<raz) {
 				raz=Math.abs(arr[r]-sredno);
 				raz2= arr[r];
-				c++;
+				p++;
 			}
 }
-		if(c==0) {
+		if(p==0) {
 			raz2=arr[0];
 			System.out.println(raz2);
 		}else{
