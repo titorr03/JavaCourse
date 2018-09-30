@@ -14,6 +14,7 @@ public class masivi1v {
 			}
 		}
 		int b=0;
+		
 		int[] arr2= new int[nech];
 		for(int f=0;f<arr.length;f++) {
 			if (arr[f]%2==1) {
