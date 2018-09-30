@@ -52,7 +52,7 @@ public class masivi4 {
 					System.out.println(arr[ic]);
 					
 				}else {
-					arr[ic+2]=arr2[c];
+					arr[ic]=arr2[c];
 					System.out.println(arr[ic]);
 					
 				}
