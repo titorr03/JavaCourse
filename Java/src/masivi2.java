@@ -15,9 +15,7 @@ public class masivi2 {
         for(int r=0;r<arr.length;r++){
         
             for(int t=0;t<arr.length;t++){
-                if(r==t){
-                    
-                }else if(arr[r]+arr[t]<nm){
+                if(arr[r]+arr[t]<nm&&r!=t){
                     nm=arr[r]+arr[t];
                 }
                 
