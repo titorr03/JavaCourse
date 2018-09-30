@@ -20,6 +20,7 @@ public class masivi1g {
 			if(arr[i]<nm) {
 				nm=arr[i];
 			}
+			
 		}
 		int raz=ng-nm;
 		int c=0;
