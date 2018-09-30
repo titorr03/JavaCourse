@@ -9,6 +9,7 @@ public class masivi7 {
 		for(int i=0;i<arr.length;i++) {
 			arr[i]=in.nextInt();
 		}
+		System.out.println("2ri masiv: ");
 		int k=in.nextInt();
 		int[] arr2= new int[k];
 		for(int i=0;i<arr2.length;i++) {
