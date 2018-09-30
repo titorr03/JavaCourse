@@ -14,6 +14,7 @@ public class masivi1b {
 				nech++;
 			}
 		}
+		
 		float sredno=0;
 		for(int a=0; a <arr.length; a+=2) {
 			sredno=sredno+arr[a];
